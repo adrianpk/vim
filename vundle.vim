@@ -61,6 +61,7 @@ Plugin 'ervandew/supertab'
 " Plugin 'honza/vim-snippets'
 
 " Editor
+Plugin 'amiorin/vim-fenced-code-blocks'
 Plugin 'Raimondi/delimitMate' " Automatically insert matching quotes, parens
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/nerdtree'
