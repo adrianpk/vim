@@ -1,3 +1,6 @@
+" File              : mappings.vim
+" Date              : 28.09.2018
+" Last Modified Date: 28.09.2018
 " **************************************************
 " Key mappings
 " **************************************************
@@ -108,6 +111,9 @@ map <F4> :!ls<CR>:e
 
 " Multiple Cursors
 source ~/.vim/config/multicursor.vim
+
+" Vim-Header
+source ~/.vim/config/vim-header.vim
 
 " VRoom
 source ~/.vim/config/vroom.vim
