@@ -60,6 +60,15 @@ Plugin 'ervandew/supertab'
 " Plugin 'SirVer/ultisnips'
 " Plugin 'honza/vim-snippets'
 
+" License
+" Plugin 'ararslan/license-to-vim'
+" Plugin 'antoyo/vim-licenses'
+Plugin 'alpertuna/vim-header'
+
+" Git
+Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-git'
+
 " Editor
 Plugin 'amiorin/vim-fenced-code-blocks'
 Plugin 'Raimondi/delimitMate' " Automatically insert matching quotes, parens
@@ -78,7 +87,6 @@ Plugin 'kien/ctrlp.vim'
 " Plugin 'skalnik/vim-vroom' " Run Ruby Tests
 " Plugin 't9md/vim-ruby-xmpfilter'
 " Plugin 'tpope/vim-bundler'
-Plugin 'tpope/vim-fugitive'
 " Plugin 'tpope/vim-rails'
 " Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-sensible'
