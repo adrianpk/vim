@@ -1,12 +1,10 @@
-" File              : mappings.vim
-" Date              : 28.09.2018
-" Last Modified Date: 28.09.2018
 " **************************************************
 " Key mappings
 " **************************************************
 
 " Remap the Leader key
-let mapleader = "\<Space>"
+" let mapleader = ","
+let mapleader="\<space>"
 
 " Disable arrow keys
 " nnoremap <up> <nop>
@@ -23,34 +21,34 @@ ino jj <esc>
 ino jj <c-c>
 
 " Open files with leader-o
-nnoremap <Leader>o :CtrlP<CR>
+nnoremap <leader>o :CtrlP<cr>
 
 " Save files in Insert mode
 inoremap <F2> <c-o>:w<cr>
 
 " Buffers
-nnoremap <C-a> :buffers<CR>:buffer<Space>
+nnoremap <C-a> :buffers<cr>:buffer<Space>
 
 " Map save commands to leader-<command>
-nnoremap <Leader>w :w<CR>
-nnoremap <Leader>q :q<CR>
-nnoremap <Leader>wq :wq<CR>
-nnoremap <Leader>qa :qa<CR>
-nnoremap <C-s> <C-o><Esc>:Update<CR>
+nnoremap <leader>w :w<cr>
+nnoremap <leader>q :q<cr>
+nnoremap <leader>wq :wq<cr>
+nnoremap <leader>qa :qa<cr>
+nnoremap <C-s> <C-o><Esc>:Update<cr>
 
 " Improve tab navigation
-nnoremap th  :tabfirst<CR>
-nnoremap tj  :tabnext<CR>
-nnoremap tk  :tabprev<CR>
-nnoremap tl  :tablast<CR>
+nnoremap th  :tabfirst<cr>
+nnoremap tj  :tabnext<cr>
+nnoremap tk  :tabprev<cr>
+nnoremap tl  :tablast<cr>
 nnoremap tt  :tabedit<Space>
-nnoremap tn  :tabnew<CR>
+nnoremap tn  :tabnew<cr>
 nnoremap tm  :tabm<Space>
-nnoremap td  :tabclose<CR>
+nnoremap td  :tabclose<cr>
 
 " Improve splitting
-nnoremap vv  :vsplit<CR>
-nnoremap ss  :split<CR>
+nnoremap vv  :vsplit<cr>
+nnoremap ss  :split<cr>
 
 " Improve pane navigation
 nnoremap <C-h> <C-w>h
@@ -88,11 +86,11 @@ vnoremap <silent> <c-l> :exe "tabn ".g:lasttab<cr>
 " let g:multi_cursor_start_word_key='g<C-n>'
 
 " Insert timestamp
-:nnoremap <F5> "=strftime("%Y%m%d%H%M%S")<CR>P
-:inoremap <F5> <C-R>=strftime("%Y%m%d%H%M%S")<CR>
+:nnoremap <F5> "=strftime("%Y%m%d%H%M%S")<cr>P
+:inoremap <F5> <C-R>=strftime("%Y%m%d%H%M%S")<cr>
 " Insert year, month, date
-:nnoremap <S-F5> "=strftime("%Y%m%d")<CR>P
-:inoremap <S-F5> <C-R>=strftime("%Y%m%d")<CR>
+:nnoremap <S-F5> "=strftime("%Y%m%d")<cr>P
+:inoremap <S-F5> <C-R>=strftime("%Y%m%d")<cr>
 
 " Pathogen
 source ~/.vim/config/pathogen.vim
@@ -107,7 +105,7 @@ map <silent> <leader>d <Plug>DashSearch
 source ~/.vim/config/mix.vim
 
 " Vim explorer
-map <F4> :!ls<CR>:e
+map <F4> :!ls<cr>:e
 
 " Multiple Cursors
 source ~/.vim/config/multicursor.vim
@@ -121,6 +119,6 @@ source ~/.vim/config/vroom.vim
 " Neocomplete
 " source ~/.vim/config/neocomplete.vim
 
-nnoremap <F8> :TagbarToggle<CR>
-inoremap <F8> :TagbarToggle<CR>
-vnoremap <F8> :TagbarToggle<CR>
+nnoremap <F8> :TagbarToggle<cr>
+inoremap <F8> :TagbarToggle<cr>
+vnoremap <F8> :TagbarToggle<cr>
