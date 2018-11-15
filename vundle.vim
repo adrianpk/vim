@@ -24,11 +24,14 @@ Plugin 'w0ng/vim-hybrid'
 Plugin 'nanotech/jellybeans.vim'
 Plugin 'NLKNguyen/papercolor-theme'
 
+" Search
+Plugin 'mileszs/ack.vim'
+
 " Syntax
 " Plugin 'vim-ruby/vim-ruby'
 Plugin 'JulesWang/css.vim'
 Plugin 'cakebaker/scss-syntax.vim'
-Plugin 'elixir-lang/vim-elixir'
+"Plugin 'elixir-lang/vim-elixir'
 Plugin 'elzr/vim-json'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'mustache/vim-mustache-handlebars'
@@ -70,37 +73,40 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-git'
 
 " Editor
-Plugin 'amiorin/vim-fenced-code-blocks'
-Plugin 'Raimondi/delimitMate' " Automatically insert matching quotes, parens
-Plugin 'scrooloose/nerdcommenter'
-Plugin 'scrooloose/nerdtree'
-Plugin 'jistr/vim-nerdtree-tabs'
-Plugin 'Lokaltog/vim-powerline'
-Plugin 'MarcWeber/vim-addon-mw-utils'
-Plugin 'Yggdroot/indentLine'
-Plugin 'airblade/vim-gitgutter'
-"Plugin 'mattn/emmet-vim'
-"Plugin 'mattn/webapi-vim' " Required by gist-vim
-"Plugin 'mattn/gist-vim'
-Plugin 'rking/ag.vim'
-Plugin 'kien/ctrlp.vim'
-" Plugin 'skalnik/vim-vroom' " Run Ruby Tests
-" Plugin 't9md/vim-ruby-xmpfilter'
-" Plugin 'tpope/vim-bundler'
-" Plugin 'tpope/vim-rails'
-" Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-sensible'
 Plugin 'tpope/vim-abolish'
-" Plugin 'tpope/vim-repeat'
-Plugin 'godlygeek/tabular'
+Plugin 'scrooloose/nerdtree'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'rking/ag.vim'
 Plugin 'plasticboy/vim-markdown'
+Plugin 'kien/ctrlp.vim'
+Plugin 'jistr/vim-nerdtree-tabs'
+Plugin 'godlygeek/tabular'
+Plugin 'amiorin/vim-fenced-code-blocks'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'Yggdroot/indentLine'
+Plugin 'Raimondi/delimitMate' " Automatically insert matching quotes, parens
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'Lokaltog/vim-powerline'
 "Plugin 'mattreduce/vim-mix'
+"Plugin 'mattn/webapi-vim' " Required by gist-vim
+"Plugin 'mattn/gist-vim'
+"Plugin 'mattn/emmet-vim'
+"Plugin 'tpope/vim-surround'
+"Plugin 'tpope/vim-repeat'
+"Plugin 'tpope/vim-rails'
+"Plugin 'tpope/vim-bundler'
+"Plugin 't9md/vim-ruby-xmpfilter'
+"Plugin 'skalnik/vim-vroom' " Run Ruby Tests
 
 " Vim autoswap
 Plugin 'gioele/vim-autoswap.git'
 
 " Multicursor
 Plugin 'terryma/vim-multiple-cursors'
+
+" Tmux
+Plugin 'benmills/vimux'
 
 " IDE
 "Plugin 'mtth/scratch.vim'
