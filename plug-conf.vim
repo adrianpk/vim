@@ -2,38 +2,17 @@
 " Plugins config
 " **************************************************
 
-" Don't eager load git gutter display
-let g:gitgutter_eager = 0
-
-" Set scratch file to markdown
-let g:scratch_filetype = 'markdown'
-
-" Use AG for control-p searching
-let g:ctrlp_user_command = 'ag %s -l --nocolor --hidden -g ""'
-
-" Enable vim-mustache-handlebars shortcuts
-let g:mustache_abbreviations = 1
-
-" XML Plugin
-let g:xml_use_html = 1 " Don't auto-complete some tags
-
-" UltiSnips
-let g:UltiSnipsExpandTrigger="<c-j>" " Don't use tab for compatibility with YouCompleteMe
+" Vimux
+source ~/.vim/config/vimux.vim
 
 " Syntastic
 source ~/.vim/config/syntastic.vim
 
-" Ruby
-source ~/.vim/config/ruby.vim
+" Ag - The Silver Searcher
+source ~/.vim/config/ag.vim
 
 " Vim-Go
 source ~/.vim/config/vim-go.vim
-
-" Elixir
-source ~/.vim/config/elixir.vim
-
-" Elixir
-source ~/.vim/config/elixir.vim
 
 " Json
 source ~/.vim/config/json.vim
@@ -46,3 +25,16 @@ source ~/.vim/config/powerline.vim
 
 " Supertab
 source ~/.vim/config/supertab.vim
+
+" Misc
+source ~/.vim/config/_misc.vim
+
+" Disabled
+"
+" Elixir
+" source ~/.vim/config/elixir.vim
+
+" Ruby
+" source ~/.vim/config/ruby.vim
+
+
