@@ -6,6 +6,6 @@
 " let g:multi_cursor_skip_key='<C-x>'
 " let g:multi_cursor_quit_key='<Esc>'
 " Disable default mappings
-let g:multi_cursor_use_default_mapping=0
+"let g:multi_cursor_use_default_mapping=0
 " Start key
-let g:multi_cursor_start_key='<F6>'
+"let g:multi_cursor_start_key='<F6>'

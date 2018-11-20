@@ -114,7 +114,7 @@ source ~/.vim/config/multicursor.vim
 source ~/.vim/config/vim-header.vim
 
 " VRoom
-source ~/.vim/config/vroom.vim
+"source ~/.vim/config/vroom.vim
 
 " Neocomplete
 " source ~/.vim/config/neocomplete.vim
