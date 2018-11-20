@@ -28,7 +28,7 @@ Plugin 'NLKNguyen/papercolor-theme'
 Plugin 'mileszs/ack.vim'
 
 " Syntax
-" Plugin 'vim-ruby/vim-ruby'
+"Plugin 'vim-ruby/vim-ruby'
 Plugin 'JulesWang/css.vim'
 Plugin 'cakebaker/scss-syntax.vim'
 "Plugin 'elixir-lang/vim-elixir'
@@ -39,14 +39,16 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'scrooloose/syntastic'
 Plugin 'slim-template/vim-slim'
 Plugin 'othree/xml.vim'
-Plugin 'toyamarinyon/vim-swift'
+"Plugin 'toyamarinyon/vim-swift'
 
 " Langs support
-" Gocode
-Plugin 'nsf/gocode', {'rtp': 'vim/'}
-
 " Vim-Go
-Plugin 'fatih/vim-go'
+Plugin 'fatih/vim-go', {'do': ':GoUpdateBinaries'}
+
+" Gocode
+"Plugin 'nsf/gocode', {'rtp': 'vim/'}
+"Plugin 'stamblerre/gocode', {'rtp': 'vim/'}
+
 
 " Tag Management
 Plugin 'xolox/vim-misc'
@@ -55,17 +57,17 @@ Plugin 'xolox/vim-misc'
 Plugin 'editorconfig/editorconfig-vim'
 
 " Auto completion
-Plugin 'Shougo/neocomplete.vim'
-" Plugin 'Valloric/YouCompleteMe'
-Plugin 'ervandew/supertab'
+"Plugin 'Shougo/neocomplete.vim'
+"Plugin 'Valloric/YouCompleteMe'
+"Plugin 'ervandew/supertab'
 
 " Snippets
-" Plugin 'SirVer/ultisnips'
-" Plugin 'honza/vim-snippets'
+"Plugin 'SirVer/ultisnips'
+"Plugin 'honza/vim-snippets'
 
 " License
-" Plugin 'ararslan/license-to-vim'
-" Plugin 'antoyo/vim-licenses'
+"Plugin 'ararslan/license-to-vim'
+"Plugin 'antoyo/vim-licenses'
 Plugin 'alpertuna/vim-header'
 
 " Git
@@ -103,7 +105,7 @@ Plugin 'Lokaltog/vim-powerline'
 Plugin 'gioele/vim-autoswap.git'
 
 " Multicursor
-Plugin 'terryma/vim-multiple-cursors'
+"Plugin 'terryma/vim-multiple-cursors'
 
 " Tmux
 Plugin 'benmills/vimux'
@@ -120,10 +122,10 @@ Plugin 'benmills/vimux'
 Plugin 'schickling/vim-bufonly'
 
 " Elm
- Plugin 'lambdatoast/elm.git'
+" Plugin 'lambdatoast/elm.git'
 
 " TwitVim
-Plugin 'twitvim/twitvim.git'
+" Plugin 'twitvim/twitvim.git'
 
 " Table Mode
 Plugin 'dhruvasagar/vim-table-mode'
@@ -134,11 +136,10 @@ Plugin 'reedes/vim-pencil'
 " Xcode Vim
 Plugin 'gfontenot/vim-xcode'
 
-" Psc-ide-vim
-Plugin 'frigoeu/psc-ide-vim'
-
 " Purescript vim
-Plugin 'raichoo/purescript-vim'
+" Psc-ide-vim
+" Plugin 'frigoeu/psc-ide-vim'
+" Plugin 'raichoo/purescript-vim'
 
 " Tagbar
 Plugin 'majutsushi/tagbar'

@@ -1,1 +1,1 @@
-/Users/adrian/.vim/plugged/gocode/vim/autoload/gocomplete.vim
+/Users/adrian/.vim/bundle/gocode/vim/autoload/gocomplete.vim
